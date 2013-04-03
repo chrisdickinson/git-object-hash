@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "turn git objects into 40 character hex hashes",
   "main": "index.js",
+  "browser": {
+    "./sha.js": "./sha-browser.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +21,8 @@
   "author": "Chris Dickinson <chris@neversaw.us>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "2843a3e7303b21da542c7e1e0bcdb8d95d73261b"
+  "gitHead": "2843a3e7303b21da542c7e1e0bcdb8d95d73261b",
+  "dependencies": {
+    "sha1": "~1.0.1"
+  }
 }

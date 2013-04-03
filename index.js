@@ -11,7 +11,7 @@ function hashify(obj) {
     obj.looseType + ' ' + buf.length + '\0', 'utf8'
   )
 
-  buf = buf.concat([header, buf], header.length + buf.length)
+  buf = Buffer.concat([header, buf], header.length + buf.length)
   return crypto
     .createHash('sha1')
     .update(buf)

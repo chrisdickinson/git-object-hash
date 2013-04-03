@@ -1,6 +1,6 @@
 {
   "name": "git-object-hash",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "turn git objects into 40 character hex hashes",
   "main": "index.js",
   "scripts": {

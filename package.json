@@ -1,0 +1,22 @@
+{
+  "name": "git-object-hash",
+  "version": "0.0.0",
+  "description": "turn git objects into 40 character hex hashes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/git-object-hash.git"
+  },
+  "keywords": [
+    "git",
+    "object",
+    "hash"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "2843a3e7303b21da542c7e1e0bcdb8d95d73261b"
+}

@@ -24,6 +24,6 @@
   "gitHead": "2843a3e7303b21da542c7e1e0bcdb8d95d73261b",
   "dependencies": {
     "sha1": "~1.0.1",
-    "bops": "0.0.2"
+    "bops": "0.0.3"
   }
 }

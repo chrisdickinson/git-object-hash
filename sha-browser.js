@@ -1,6 +1,8 @@
-var sha1 = require('sha1')
+var rusha = require('./vendor/rusha')
+  , sha
+
+sha = new rusha()
 
 module.exports = function(buf) {
-  var bytes = [].slice.call(buf.parent, buf.offset, buf.offset + buf.length)
-  return sha1(bytes)
+  return sha.digestFromArrayBuffer(buf)
 }

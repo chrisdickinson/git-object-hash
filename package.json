@@ -23,6 +23,6 @@
   "readmeFilename": "README.md",
   "gitHead": "2843a3e7303b21da542c7e1e0bcdb8d95d73261b",
   "dependencies": {
-    "bops": "0.0.3"
+    "bops": "~0.0.6"
   }
 }

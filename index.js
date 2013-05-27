@@ -1,4 +1,4 @@
-var sha = require('./sha')
+var sha = require('./sha.js')
   , binary = require('bops')
 
 module.exports = hashify

@@ -1,4 +1,4 @@
-var rusha = require('./vendor/rusha')
+var rusha = require('./vendor/rusha.js')
   , sha
 
 sha = new rusha()
